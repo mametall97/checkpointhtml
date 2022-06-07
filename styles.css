@@ -1,0 +1,63 @@
+h1{ text-align:center;
+    color:red;
+    font-family:arial;
+    border:2px solid;
+    }
+.lienlien{
+    text-align:justiy;
+    color:blue;
+    border:10px;
+    letter-spacing:5px
+}
+.lister{
+    border: 2px solid ;
+    padding:10px
+}
+#listerdesordonnee{
+    color: aqua ;
+    font-family:serif;
+}
+#listerdesor{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:turquoise;
+}
+.select{
+    color:rgb(130, 238, 166);
+    font-weight:10px 
+}
+#opt1{
+    color: violet
+}
+#opt2{
+    color:orange 
+}
+#opt3{
+    color:red
+}
+
+.rad{ 
+    text-align:justify;
+}
+.tab{ 
+    border: 5px solid
+}
+#entete{
+    color:burlywood ;
+    font-family:'Times New Roman', Times, serif;
+    border:10px solid;
+}
+.typcv{
+    font-weight:bold;
+    background:rgb(192, 13, 13)
+ }
+
+.gird-container{
+    display:grid;
+    justify-content:center;
+}
+form{
+    display:grid;
+    grid-template-columns: 40% 70%;
+}

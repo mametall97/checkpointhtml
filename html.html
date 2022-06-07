@@ -1,41 +1,57 @@
-<hmtl>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-    <h1>checkpoints html</h1>
-    <nav>
-    <a herf="C:\Users\talls\Desktop\GoMyCode\gomycode.png">travail</a>
-    <a herf="C:\Users\talls\Desktop\GoMyCode\index.txt">contrat</a>
-    <a herf="C:\Users\talls\Documents\CODE BLOCK\PROGRAM1\main.c">cv</a>
-</nav>
-</head>
-<body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     
-        <div>
-            <h2> LISTE ORDONNEE DES SELECT</h2>
-            <ol >
+    <title>checkpoints htmlt</title>
+    <link rel="icon" type="image/png" href="C:\Users\talls\Desktop\téléchargement.png"/>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+   
+</head>
+
+
+<body>
+ 
+    
+    <div>
+        <h1 >barre de navigation </h1>
+        <nav class = lienlien>
+        <a style="font-family:serif" href="C:\Users\talls\Desktop\GoMyCode\gomycode.png">travail</a>
+        <a style="font-family:-apple-system" href="C:\Users\talls\Desktop\GoMyCode\index.txt">contrat</a>
+        <a href="C:\Users\talls\Documents\CODE BLOCK\PROGRAM1\main.c">cv</a>
+    </nav></div>
+            <br>
+    
+        <div class=lister>
+            <h2 id=listerdesordonnee> LISTE DESORDONNEE DES SELECTS</h2>
+            <ul id listerdesor >
                 <li>A PROPOS</li>
                 <li>travail</li>
                 <li>cv</li>
                 <li>contract</li>
-            </ol>
+            </ul>
         </div>
         <form>
-            <label for="selection">selection ce que vous voulez</label>
-            <select id="selection">
-                <option value="A PROPOS">A PROPOS</option>
-                <option value="travail">travail</option>
-                <option value="contrat">contrat</option>
+            <label class= select for="selection">selection ce que vous voulez</label>
+            <select style="height: 40px;width:100px;background:50px;color :blue;border-radius:50px;text-align:center" id="selection">
+                <option id=opt1 value="A PROPOS">A PROPOS</option>
+                <option id=opt2 value="travail">travail</option>
+                <option id=opt2 value="contrat">contrat</option>
 
             </select>
             <br>
+            <div class="rad">
             <input type="radio" id="cochez tes choix">
-            <label for="cochez tes choix" >A propos</label>
+            <label style="color:rgb(38, 196, 85) " for="cochez tes choix" >A propos</label>
 
             <input type="radio" id="cochez tes choix">
-            <label for="cochez tes choix">contrat</label>
+            <label style="color:rgb(236, 238, 130) " for="cochez tes choix">contrat</label>
             
             <input type="radio" id="cochez tes choix">
-            <label for ="cochez tes choix">travail</label> 
-            
+            <label style="color:rgb(226, 32, 32) "for ="cochez tes choix">travail</label> 
+        </div>
         </form>
 
         <div>
@@ -51,9 +67,9 @@
     </div>
     <div>
     <h2>TABLEAU POUR LES TRAVAILS DISPO ET SALAIRES</h2>
-       <table border="1"width="350">
+       <table class=tab ;border="10 " width="350">
            <thead>
-          <tr>
+          <tr id=entete>
              <td>type de travail</td>
                 <td>salaire net</td>
           </tr>
@@ -76,11 +92,12 @@
     </video>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-OmuP6t9Rjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" 
     </div>
-    <div>
+    <div class="gird-container">
         <h2>donnez nous votre type de cv</h2>
-        <form 
-            <checkbox></checkbox>
-            <label for="name">type de cv</label>
+        <img src="C:\Users\talls\Downloads\cv.png" alt="image">
+        <form >
+            
+            <label class=typcv for="name">type de cv</label>
             <input id="type de cv" type="text">
             <br>
             <h2>votre contrat</h2>
@@ -96,7 +113,7 @@
             <input type="submit" value="valider">
 </body>
 <footer>
-    <a href="mailto:mametall97@gmail.com">vous pouvez m'envoyer un message </a>
+    <a link href="mailto:mametall97@gmail.com">vous pouvez m'envoyer un message </a>
 </footer>
 <a href="C:\Users\talls\Desktop\GoMyCode\index.txt" download="tp index">download index.txt</a>
 
